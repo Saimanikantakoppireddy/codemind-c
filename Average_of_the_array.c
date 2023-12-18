@@ -1,17 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,tot;
+    int n,i,sum=0;
     float avg;
     scanf("%d",&n);
     int a[n];
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
-        
+        sum=sum+a[i];
     }
-    for(i=0;i<n;i++)
-    tot=tot+a[i];
-    avg=(tot*1.0)/n;
+    
+    avg=(sum*1.0)/n;
     printf("%.2f",avg);
 }
