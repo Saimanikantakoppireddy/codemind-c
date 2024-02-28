@@ -32,5 +32,5 @@ int main()
     if(f)
     printf("%d %d",min,max);
      else if(f==0)
-    printf("-1");
+   printf("-1");
 }
